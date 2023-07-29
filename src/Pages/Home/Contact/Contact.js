@@ -9,11 +9,11 @@ const Contact = () => {
         <div className='flex items-center justify-center m-20'>
             <form className='m-20'>
                   
-                  <div class="mb-6">
+                  <div className="mb-6">
                      <input
                         type="email"
                         placeholder="Your Email"
-                        class="
+                        className="
                         w-full
                         rounded
                         py-3
@@ -26,11 +26,11 @@ const Contact = () => {
                         "
                         />
                   </div>
-                  <div class="mb-6 w-80">
+                  <div className="mb-6 w-80">
                      <input
                         type="text"
                         placeholder="Subject"
-                        class="
+                        className="
                         w-full
                         rounded
                         py-3
@@ -44,11 +44,11 @@ const Contact = () => {
                         />
                   </div>
                   
-                  <div class="mb-6">
+                  <div className="mb-6">
                      <textarea
                         rows="3"
                         placeholder="Your Message"
-                        class="
+                        className="
                         w-full
                         rounded
                         py-3
@@ -65,7 +65,7 @@ const Contact = () => {
                   <div className='text-center'>
                      <button
                         type="submit"
-                        class="
+                        className="
                         w-24 
                         text-white
                         bg-primary
